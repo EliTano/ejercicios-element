@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main () {
+    int num1, num2, sum, res, produc, coci, resto;
+    
+    printf ("Ingresar dos numeros enteros: ");
+    scanf ("%d%d", &num1, &num2);
+    
+    sum = num1 + num2;
+    res = num1 - num2;
+    produc = num1 * num2;
+    coci = num1/num2;
+    resto = num1%num2;
+    
+    printf ("El resultado de la suma es %d\n",sum);
+    printf ("El resultado de la resta es %d\n", res);
+    printf ("El resultado del producto es %d\n", produc);
+    printf ("El resultado del cociente es %d\n", coci);
+    printf ("El resto de la division es %d\n", resto);
+    
+    return 0;
+}
